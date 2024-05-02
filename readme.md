@@ -2,7 +2,7 @@
 
 [![Abhishek LinkedIn](https://img.shields.io/badge/Abhishek-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abhi5h3k/) [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
-![LLQuery Dark](LLQueryDark.png)
+<img src="LLQueryDark.png" width="250"> 
 
 ## 🔐 LLQuery : Your Conversational SQL Bridge
 
@@ -14,7 +14,9 @@ Harness the power of natural language to effortlessly craft SQL queries with LLQ
 
 Leveraging the cutting-edge capabilities of large language models, LLQuery bridges the gap between human thought and database syntax. Simply ask your question in plain language, and LLQuery will translate it into an accurate SQL query, ready for execution.
 
-For ease, we have taken a sample SQLite db. You can use similar logic for any other database schema. This is a proof of concept on how LLM can be leveraged with DB.
+For ease, we have taken a sample **SQLite db**. You can use similar logic for any other database schema. This is a proof of concept on how LLM can be leveraged with DB.
+
+![Chinook ERD](https://github.com/Abhi5h3k/LLQuery/assets/37928721/791c16df-a705-4b05-a75a-0c7b3dc963ed)
 
 ## Use Cases:
 
@@ -34,7 +36,7 @@ For ease, we have taken a sample SQLite db. You can use similar logic for any ot
 
 ## Setup Instructions
 
-![LLQuery White](LLQueryWhite.png)
+<img src="LLQueryWhite.png" width="250">
 
 1. Clone the project repository using Git.
 2. Run `docker compose up --build -d`
@@ -46,7 +48,7 @@ For ease, we have taken a sample SQLite db. You can use similar logic for any ot
 
    Read about duckdb-nsql https://ollama.com/library/duckdb-nsql
 
-   ![duckdb-nsql](https://github.com/ollama/ollama/assets/3325447/b9217c78-0803-45fe-90cf-00bd76705a37)
+   <img src="https://github.com/ollama/ollama/assets/3325447/b9217c78-0803-45fe-90cf-00bd76705a37" width="250">
 
 5. If everything goes right, you will be able to access the app at `http://localhost:8000/`.
 
