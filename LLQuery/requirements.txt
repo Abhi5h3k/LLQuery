@@ -1,0 +1,4 @@
+chainlit==1.0.506
+ollama==0.1.9
+langchain==0.1.17
+python-box==7.1.1

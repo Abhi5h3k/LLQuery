@@ -1,0 +1,26 @@
+version: "3.8"  
+
+services:
+  ollama:
+    image: ollama/ollama  # Use the official Ollama image
+    ports:
+      - "11434:11434"  # Map container port 11434 to host port 11434
+    volumes:
+      - ollama_data:/root/.ollama  # Persistent data volume for Ollama
+ 
+  llquery:
+    build:
+      context: .
+      dockerfile: Dockerfile.llquery
+    ports:
+      - "8000:8000"
+    depends_on:
+      - ollama
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+    volumes:
+      - ./LLQuery:/app/code
+    command: bash -c "chainlit run app.py -w"
+
+volumes:
+  ollama_data:  # Define the persistent data volume
