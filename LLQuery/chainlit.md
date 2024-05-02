@@ -4,13 +4,15 @@
 
 ## 🔐 LLQuery : Your Conversational SQL Bridge
 
+![Demo](https://github.com/Abhi5h3k/LLQuery/raw/main/LLQuery.gif)
+
 ## Project Overview
 
 Harness the power of natural language to effortlessly craft SQL queries with LLQuery. This innovative chatbot, built for Docker, empowers users of all technical backgrounds to interact with their databases intuitively.
 
 Leveraging the cutting-edge capabilities of large language models, LLQuery bridges the gap between human thought and database syntax. Simply ask your question in plain language, and LLQuery will translate it into an accurate SQL query, ready for execution.
 
-For ease, we have taken a sample SQLite db. You can use similar logic for any other database schema. This is a proof of concept on how LLM can be leveraged with DB.
+**For ease, we have taken a sample SQLite db**. You can use similar logic for any other database schema. This is a proof of concept on how LLM can be leveraged with DB.
 
 ## Use Cases:
 
@@ -29,6 +31,8 @@ For ease, we have taken a sample SQLite db. You can use similar logic for any ot
 - I'm on windows so my Docker Compose version is v2.26.1-desktop.1
 
 ## Setup Instructions
+
+![LLQueryDark](https://github.com/Abhi5h3k/LLQuery/blob/main/LLQueryDark.png?raw=true)
 
 1. Clone the project repository using Git.
 2. Run `docker compose up --build -d`
