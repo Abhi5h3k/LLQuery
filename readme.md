@@ -68,8 +68,13 @@ For ease, we have taken a sample **SQLite db**. You can use similar logic for an
    - curl ollama:11434/api/tags
 
 ## Note:
-
 Inference speed will depend upon CPU cores and avaialble RAM. It's recomended to have multi core CPU (Laptop / PC) with atleast 16GB RAM. You can deploy it on Server for better performance.
+
+Tested on : 
++ Windows 10
++ i7-10510U CPU @ 1.80GHz 
++ cores : 4
++ RAM : 16GB
 
 ## Welcome screen
 
